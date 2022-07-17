@@ -8,26 +8,69 @@
     <title>Net Ninja Pro - the Book</title>
 </head>
 <body>
-    <div class="container my-5">
-        <h2>normal container</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nobis enim, commodi possimus explicabo voluptatum sint temporibus optio officiis, reprehenderit assumenda modi, veniam molestiae inventore impedit voluptatem dicta voluptate recusandae!</p>
-    </div>
-    
-    <div class="container-fluid">
-        <h2>fluid container</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsam eius explicabo doloribus fugiat nulla, porro nam alias rem eaque, commodi autem fuga eum non beatae dolorum minima officiis praesentium consequuntur eveniet voluptatibus quisquam rerum perspiciatis debitis! Fuga nesciunt, quos repudiandae quia provident nemo impedit hic consequatur maiores repellendus sapiente rem assumenda. Non dolores harum id voluptate vel quam nemo molestiae commodi similique modi accusamus, tempora earum aspernatur accusantium, ratione rem. Doloribus, aperiam aliquid incidunt quod mollitia modi quibusdam harum.</p>
+    <div class="container-lg my-5">
+        <h2>basic grid</h2>
+        <div class="row">
+            <div class="col">
+                <div class="p-5 bg-primary text-light">col 1</div>
+            </div >
+            <div class="col">
+                <div class="p-5 bg-primary text-light">col 2</div>
+            </div>
+            <div class="col">
+                <div class="p-5 bg-primary text-light">col 3</div>
+            </div>
+            <div class="col">
+                <div class="p-5 bg-primary text-light">col 4</div>
+            </div>
+        </div>
     </div>
 
     <div class="container-lg my-5">
-        <h2>100% width until lg screens, then container</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia omnis, fuga modi molestiae distinctio voluptatum possimus a illum. Eius dolores id praesentium maxime ullam unde aspernatur suscipit atque deleniti nam.</p>
+        <h2>column widths</h2>
+        <div class="row">
+            <div class="col-6">
+                <div class="p-5 bg-primary text-light">col 1</div>
+            </div >
+            <div class="col-3">
+                <div class="p-5 bg-primary text-light">col 2</div>
+            </div>
+            <div class="col-3">
+                <div class="p-5 bg-primary text-light">col 3</div>
+            </div>
+        </div>
     </div>
 
-    <div class="container-xl my-5">
-        <h2>100% width until xl screens, then container</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur dolorum voluptas accusantium id. Nulla aliquid voluptatem animi quos sed odio, quibusdam et, repudiandae consequatur quidem magni maxime beatae doloribus placeat!</p>
+    <div class="container-lg my-5">
+        <h2>responsive column widths</h2>
+        <div class="row">
+            <div class="col-sm-4 col-lg-6">
+                <div class="p-5 bg-primary text-light">col 1</div>
+            </div >
+            <div class="col-sm-4 col-lg-3">
+                <div class="p-5 bg-primary text-light">col 2</div>
+            </div>
+            <div class="col-sm-4 col-lg-3">
+                <div class="p-5 bg-primary text-light">col 3</div>
+            </div>
+        </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <div class="container-lg my-5">
+        <h2>justifying columns</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <div class="p-5 bg-primary text-light">col 1</div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-5 bg-primary text-light">col 2</div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-5 bg-primary text-light">col 3</div>
+            </div>
+        </div>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
