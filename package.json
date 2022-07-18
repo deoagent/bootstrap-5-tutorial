@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap-5-tutorial",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">   <a href=\"https://getbootstrap.com/\">     <img src=\"https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo-shadow.png\" alt=\"Bootstrap logo\" width=\"200\" height=\"165\">   </a> </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deoagent/bootstrap-5-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deoagent/bootstrap-5-tutorial/issues"
+  },
+  "homepage": "https://github.com/deoagent/bootstrap-5-tutorial#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0-beta1"
+  }
+}
